@@ -1,0 +1,363 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+	<link rel="stylesheet" type="text/css" href="F:\Web Development\Upgrad_static\BootWeb.css">
+	
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+
+    <title>Web 1</title>
+  </head>
+  <body>
+	
+		<!--navbar-->
+		<nav class="navbar navbar-expand-lg navbar-light bg-warning">
+		
+		  <div class="container-fluid">
+			<a class="navbar-brand" href="#">
+				
+				<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-graph-up" viewBox="0 0 16 16">
+					  <path fill-rule="evenodd" d="M0 0h1v15h15v1H0V0zm10 3.5a.5.5 0 0 1 .5-.5h4a.5.5 0 0 1 .5.5v4a.5.5 0 0 1-1 0V4.9l-3.613 4.417a.5.5 0 0 1-.74.037L7.06 6.767l-3.656 5.027a.5.5 0 0 1-.808-.588l4-5.5a.5.5 0 0 1 .758-.06l2.609 2.61L13.445 4H10.5a.5.5 0 0 1-.5-.5z"/>
+				</svg>
+			UpGrad
+			</a>
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+			  <span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+			  <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+				<li class="nav-item">
+				  <a class="nav-link active" aria-current="page" href="#">Home</a>
+				</li>
+				<li class="nav-item">
+				  <a class="nav-link" href="#">About Us</a>
+				</li>
+				<li class="nav-item dropdown">
+				  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+					Courses
+				  </a>
+				  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+					<li><a class="dropdown-item" href="#">Machine Learning</a></li>
+					<li><hr class="dropdown-divider"></li>
+					<li><a class="dropdown-item" href="#">Blockchain</a></li>
+					<li><hr class="dropdown-divider"></li>
+					<li><a class="dropdown-item" href="#">Artificial Intelligence</a></li>
+				  </ul>
+				</li>
+				<li class="nav-item">
+				  <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Blogs</a>
+				</li>
+			  </ul>
+			  <form class="d-flex">
+				<input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+				<button class="btn btn-outline-light" type="submit">Search</button>
+			  </form>
+			</div>
+		  </div>
+		  
+		</nav>
+		
+		
+		<!--Slider-->
+		
+		<div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+		  <div class="carousel-indicators">
+			<button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+			<button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+			<button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+		  </div>
+		  <div class="carousel-inner">
+			<div class="carousel-item active">
+			  <img src="F:\Web Development\Upgrad_static\Boot4.jpg" class="d-block w-100" alt="...">
+			  <div class="carousel-caption d-none d-md-block ">
+				<h5 class="text-dark">Sigma Rule #34</h5>
+				<p class="text-dark">An investment in knowlegde pays the best interest.</p>
+			  </div>
+			</div>
+			<div class="carousel-item">
+			  <img src="F:\Web Development\Upgrad_static\Boot2.png" class="d-block w-100" alt="...">
+			  <div class="carousel-caption d-none d-md-block">
+				<h5 class="text-dark">Sigma Rule #56</h5>
+				<p class="text-dark">Education is the most powerful weapon we can use to change the world.</p>
+			  </div>
+			</div>
+			<div class="carousel-item">
+			  <img src="F:\Web Development\Upgrad_static\Boot5.jpg" class="d-block w-100" alt="...">
+			  <div class="carousel-caption d-none d-md-block">
+				<h5 class="text-dark">Sigma Rule #79</h5>
+				<p class="text-dark">Education is the key to unlocking the world, a passport to freedom.</p>
+			  </div>
+			</div>
+		  </div>
+		  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+			<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+			<span class="visually-hidden">Previous</span>
+		  </button>
+		  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+			<span class="carousel-control-next-icon" aria-hidden="true"></span>
+			<span class="visually-hidden">Next</span>
+		  </button>
+		</div>
+		
+		
+		<!--container-->
+		
+		<div class="container-fluid">
+		
+		
+			<!--tgline-->
+			<div class="row">
+				<div class="col-12"> 
+				
+				<h3 class="display-6 text-center mt-5 mb-4">India’s largest online higher education company<br>
+					Get educated by our top University Partners.</h3>
+				
+				</div>
+			</div>
+			
+			<!--features-->
+			<div class="row justify-content-evenly">
+			
+				<div class="col-md-3 text-center mt-4"> 
+					<h1 >
+						<i class="bi bi-code-square text-primary"></i>
+					</h1>
+					
+					<h5>Best Online Coding Courses</h5>
+					<p>The best online coding courses are a way to either get started as a coder, or develop and update your existing skills. But there are sadly a lot of poor training materials online. So to make sure you don't waste your time, we've brought together the very best coding courses</p>
+					
+				</div>
+				
+				<div class="col-md-3 text-center mt-4"> 
+					<h1 >
+					<i class="bi bi-layout-text-window-reverse text-danger"></i>
+					</h1>
+					
+					
+					<h5>Expertise Hand-Written Notes</h5>
+					<p>Writing notes by hand generally improves your understanding of the material and helps you remember it better, since writing it down involves deeper cognitive-processing of the material than typing it.</p>
+				
+				</div>
+				
+				<div class="col-md-3 text-center mt-4"> 
+					
+					<h1 >
+						<i class="bi bi-window text-success"></i>
+					</h1>
+					
+					<h5>Best Online Primium Classes</h5>
+					<p>Whether you are looking for a new career or a new hobby, Welcome to Up-Grad here on demand courses are operated at the pace of the student’s choosing with no fixed deadlines or due dates, with whole subscription packages and a job guarantee and career services.</p>
+					
+					
+					
+				</div>
+			</div>
+			<hr>
+			
+			
+			
+			<!--Growth And Progress-->
+			<div class="row justify-content-evenly pt-3 pb-5">
+				
+				<div class="col-md-5 ">
+				<img src="F:\Web Development\Upgrad_static\boot6.png" width="500px" class="img-fluid" >
+				
+				
+				</div>
+				
+				<div class="col-md-5 pt-3">
+					
+					<h5 class="mt-3">Artificial Intellegence</h5>
+					<div class="progress">
+						  <div class="progress-bar bg-success" role="progressbar" style="width: 55%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+					</div>
+					
+					<h5 class="mt-3">App Development</h5>
+					<div class="progress">
+						  <div class="progress-bar bg-info" role="progressbar" style="width: 80%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+					
+					</div>
+					
+					<h5 class="mt-3">Web Development</h5>
+					<div class="progress">
+						  <div class="progress-bar bg-warning" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+					
+					</div>
+					
+					<h5 class="mt-3">Digital Marketing</h5>
+					<div class="progress">
+						  <div class="progress-bar bg-danger" role="progressbar" style="width: 65%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+					</div>
+					
+					<h5 class="mt-3">Machine Learning</h5>
+					<div class="progress">
+						  <div class="progress-bar bg-primary" role="progressbar" style="width: 90%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+					</div>
+				
+				</div>
+			
+			</div>
+		
+			
+			<!--Contact and Address-->
+			<div class="row justify-content-evenly pb-3 pb-5" style="background-color:#f1f1f1;">
+			
+				<div class="col-md-5">
+				
+					<form>
+					<h3 class="mt-5 mb-3">Contact Form</h3>
+					  
+					  <div class="mb-3">
+						<label for="Full-name" class="form-label">Full Name</label>
+						<input type="text" class="form-control" id="name" aria-describedby="name">
+					  </div>
+					  
+					  <div class="mb-3">
+						<label for="exampleInputEmail1" class="form-label">Email address</label>
+						<input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+						<div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+					  </div>
+					  
+					  <div class="mb-3">
+						  <label for="exampleFormControlTextarea1" class="form-label">Message</label>
+						  <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+						</div>
+
+					  <button type="submit" class="btn btn-warning">Submit</button>
+					</form>
+				
+				</div>
+			
+				<div class="col-md-5">
+				<h3 class="mt-5 mb-3">Address</h3>
+				<p>23, Chawri Bazar<br>
+				Old Delhi - 110006<br>
+				<i class="bi bi-telephone"></i> : 9599098337</p>
+				
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3501.3243067848002!2d77.22691131440766!3d28.650006690042122!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cfd182a15b64b%3A0x84e262c157921a8e!2s23%2C%20Raghu%20Ganj%2C%20Manohar%20Market%2C%20Chawri%20Bazar%2C%20Chandni%20Chowk%2C%20New%20Delhi%2C%20Delhi%20110006!5e0!3m2!1sen!2sin!4v1626862471271!5m2!1sen!2sin" style="width:100%;" height="270" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+				<!--width 100% to make map responsive-->
+				</div>
+				
+			</div>
+			
+		
+			<!--FAQ-->
+			<div class="row justify-content-center pt-5 pb-5">
+				
+				<div class="col-md-10">
+				
+				<h3 class="text-center pb-4">FAQ</h3>
+					
+					<div class="accordion accordion-flush border" id="accordionFlushExample">
+					  <div class="accordion-item">
+						<h2 class="accordion-header" id="flush-headingOne">
+							<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+							Will I get credit for these course?
+						  </button>
+						</h2>
+						<div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+						  <div class="accordion-body">Online Learning credit courses are comparable to on-campus courses and appear on your University of Minnesota Morris transcript in exactly the same manner as an on-campus course. You will receive University credit for these courses.</div>
+						</div>
+					  </div>
+					  <div class="accordion-item">
+						<h2 class="accordion-header" id="flush-headingTwo">
+						  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+							How long do I have to complete a course?
+						  </button>
+						</h2>
+						<div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+						  <div class="accordion-body">Fall and spring semester courses will be completed during stated weeks of the designated term in which they are offered. Most Summer Term courses are five weeks in length; a few are ten weeks. Assignments and course requirements must be completed by the due dates set by your instructor in the course syllabus. Any variance of this timeframe would need to be pre-approved by the instructor.</div>
+						</div>
+					  </div>
+					  <div class="accordion-item">
+						<h2 class="accordion-header" id="flush-headingThree">
+						  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+							What do I do if I would like to drop or withdraw from the course?
+						  </button>
+						</h2>
+						<div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+						  <div class="accordion-body">You must officially drop or withdraw from the course in order to avoid receiving a grade of "F" or "N." The terms of your cancellation depend on how long you have been enrolled in the course.
+
+							A drop occurs within the first 10 days of campus (not course) instruction and will not appear on your transcript.
+							A withdraw occurs after 10 days of campus (not course) instruction and will appear on your transcript.</div>
+						</div>
+					  </div>
+					</div>
+					
+				</div>
+					
+					
+			</div>
+		
+			
+			<!--Footer-->
+			<div class="row justify-content-evenly pt-2 pb-5 bg-dark">
+				
+				<div class="col-md-3 text-white pt-4">
+				
+					<h4 class="pb-2">UpGrad</h4>
+					<p>upGrad is an online higher education platform providing rigorous industry-relevant programs designed and delivered in collaboration with world-class faculty and industry. Merging the latest technology, pedagogy, and services, upGrad is creating an immersive learning experience – anytime and anywhere.</p>
+					
+				</div>
+				
+				<div class="col-md-3 pt-4">
+				
+					<h4 class="pb-2 text-white">Important Links</h4>
+		
+					<a href="#" class="link-light text-decoration-none">Home</a><br>
+					<a href="#" class="link-light text-decoration-none">About US</a><br>
+					<a href="#" class="link-light text-decoration-none">Machine Learning</a><br>
+					<a href="#" class="link-light text-decoration-none">Blockchain</a><br>
+					<a href="#" class="link-light text-decoration-none">Artificial Intelligence</a><br>
+					<a href="#" class="link-light text-decoration-none">Blogs</a>
+				
+					
+				</div>
+				
+				<div class="col-md-3 text-white pt-4">
+				
+					<h4 class="pb-2">Contact Us</h4>
+					<p>23, Chawri Bazar<br>
+					Old Delhi - 110006<br>
+					<i class="bi bi-telephone"></i> : 9599098337</p>
+					
+				</div>
+					
+					
+			</div>
+		
+			<!--copyright-->
+				
+			<div class="row bg-secondary text-white text-center p-2" style="font-size:15px; font-weight:400;">
+				
+				<div class="col-md-12">
+					
+					<p>Copyright &#169; 2002 - 2021 by PJ, All Rights Reserved.</p>
+				
+				</div>
+			
+			
+			</div>
+		
+		<!--container end-->
+		</div>
+	
+	<!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    -->
+	
+  </body>
+</html>
